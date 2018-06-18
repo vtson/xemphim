@@ -1,0 +1,56 @@
+body,html{
+	background-color: lightgray;
+	min-height: 100%;
+}
+
+.top{
+	padding-top:20px;
+
+	.user-action{
+		margin: 20px auto;
+
+		a{
+			padding-left:20px;
+		}
+	}
+}
+
+.logo{
+	
+	span{
+		margin-left:10px;
+	}
+
+	img{
+		vertical-align:middle;
+	}
+
+}
+
+.main-content{
+	width: 400px;
+    margin: 0 auto;
+    background-color: #66ffff;
+}
+
+.form-title{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+span {
+
+	title-image {
+	    white-space: nowrap; 
+	    width: 100%;
+	    overflow: hidden;
+	    text-overflow: ellipsis; 
+	}
+}
+
+.is-scrollable{
+    overflow-y: scroll;
+    width: auto;
+    max-height: 1800px;
+}

@@ -1,0 +1,113 @@
+body, html {
+  background-color: #fff;
+  min-height: 100%; }
+
+.top {
+  padding-top: 20px; }
+  .top .user-action {
+    margin: 20px auto; }
+    .top .user-action a {
+      padding-left: 20px; }
+
+.logo span {
+  margin-left: 10px; }
+
+.logo img {
+  vertical-align: middle; }
+
+.main-content {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #66ffff; }
+
+.form-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center; }
+
+span.title-image {
+    display: block;
+    margin: 0 auto;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.is-scrollable{
+    overflow-y: scroll;
+    width: auto;
+    max-height: 1800px;
+}
+
+ul .navbar-start{
+  height: 100px;
+}
+
+.navbar-start li a{
+  color:white;
+}
+
+.dropdown-menu{
+  background-color: black;
+  width: 1000px;
+}
+
+.dropdown-menu a{
+  padding: 10px;
+  display: block;
+  white-space:nowrap !important;
+}
+
+section{
+  margin-top: 50px;
+  background-color: #eee;
+}
+
+.title-list{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.title-list a{
+  color: #000;
+}
+
+.white-space{
+  margin-top: 100px;
+  max-height: 100px;
+}
+
+.filter-film{
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0 20px 0;
+  background-color: #ccc;
+}
+
+/*.card-image{
+  position: relative;
+}
+
+.bookmark{
+  position: absolute;
+  top:10%;
+  z-index: 1;
+  color: #fff;
+  padding-left: 20px;
+  opacity: 0;
+  font-weight: bold;
+}
+
+.card-image:hover :not(img){
+  opacity: 1;
+}
+*/
+
+iframe{
+  width: 100%;
+  height: calc(100vh - 30vh);
+}
+
+dialog{
+  max-height: calc(100vh - 50vh);
+  width: 50%;
+}
